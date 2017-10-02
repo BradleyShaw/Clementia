@@ -1,0 +1,21 @@
+{
+  "name": "clementia",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bradley Shaw",
+    "email": "bs@sigint.pw"
+  },
+  "homepage": "https://code.libertas.tech/bs/Clementia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://code.libertas.tech/bs/Clementia/issues"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "erlpack": "github:discordapp/erlpack",
+    "node-opus": "^0.2.7",
+    "sodium": "^2.0.1",
+    "uws": "^8.14.1",
+    "winston": "^2.4.0"
+  }
+}
