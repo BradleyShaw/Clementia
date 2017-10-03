@@ -22,5 +22,8 @@ module.exports = async function(bot, message, args) {
   
   const dispatcher = await connection.playArbitraryInput(args[0], {bitrate: 'auto'});
   dispatcher.on('error', e => bot.log.error(e));
-  dispatcher.on('end', () => voiceChannel.leave());
+  dispatcher.on('end', reason => {
+    bot.log.debug(reason);
+    voiceChannel.leave();
+  });
 }
