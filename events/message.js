@@ -1,4 +1,4 @@
-module.exports = function(bot, message) {
+module.exports = async function(bot, message) {
   if (message.author.bot) return;
 
   if (message.content.indexOf(bot.config.prefix) !== 0) return;

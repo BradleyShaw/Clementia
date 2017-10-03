@@ -1,3 +1,3 @@
-module.exports = function(bot, message, args) {
+module.exports = async function(bot, message, args) {
   message.channel.send('Pong!');
 }
