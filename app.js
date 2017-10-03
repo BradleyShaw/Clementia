@@ -9,6 +9,7 @@ class Clementia {
     this.client = new Discord.Client();
     this.events = new EventEmitter();
     this.commands = new EventEmitter();
+    this.mtimes = {};
     this.configPath = path.resolve(configFile);
     this.reloadConfig();
     this.log = new winston.Logger({
@@ -47,6 +48,7 @@ class Clementia {
     const events = fs.readdirSync(path.resolve('./events'));
     for (const event of events) {
       if (event.endsWith('.js')) {
+        delete require.cache[require.resolve(`./events/${event}`)];
         let eventName = event.slice(0, -3);
         this.events.on(eventName, this.getEvent(eventName));
         this.log.debug('(Re)Loaded event: %s', eventName);
@@ -70,6 +72,7 @@ class Clementia {
     const commands = fs.readdirSync(path.resolve('./commands'));
     for (const command of commands) {
       if (command.endsWith('.js')) {
+        delete require.cache[require.resolve(`./commands/${command}`)];
         let commandName = command.slice(0, -3);
         this.commands.on(commandName, this.getCommand(commandName));
         this.log.debug('(Re)Loaded command: %s', commandName);
