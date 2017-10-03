@@ -42,7 +42,7 @@ class Clementia {
     }
   }
 
-  reloadEvents() {
+  reloadEvents(callback) {
     this.events.removeAllListeners();
     const events = fs.readdirSync(path.resolve('./events'));
     for (const event of events) {
@@ -52,6 +52,7 @@ class Clementia {
         this.log.debug('(Re)Loaded event: %s', eventName);
       }
     }
+    if (callback) callback();
   }
 
   getCommand(command) {
@@ -64,7 +65,7 @@ class Clementia {
     }
   }
 
-  reloadCommands() {
+  reloadCommands(callback) {
     this.commands.removeAllListeners();
     const commands = fs.readdirSync(path.resolve('./commands'));
     for (const command of commands) {
@@ -74,6 +75,7 @@ class Clementia {
         this.log.debug('(Re)Loaded command: %s', commandName);
       }
     }
+    if (callback) callback();
   }
 
   patchEmitter(emitter) {
