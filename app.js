@@ -93,9 +93,13 @@ class Clementia {
     this.client.login(this.config.token);
     process.once('SIGINT', () => {
       this.log.info('Caught SIGINT; Exiting...');
-      this.client.destroy().then(() => {
-        process.exit();
-      });
+      this.die();
+    });
+  }
+
+  die() {
+    this.client.destroy().then(() => {
+      process.exit();
     });
   }
 }
