@@ -9,7 +9,6 @@ class Clementia {
     this.client = new Discord.Client();
     this.events = new EventEmitter();
     this.commands = new EventEmitter();
-    this.mtimes = {};
     this.configPath = path.resolve(configFile);
     this.reloadConfig();
     this.log = new winston.Logger({
