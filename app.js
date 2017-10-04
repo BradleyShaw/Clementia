@@ -25,11 +25,30 @@ class Clementia {
     });
     this.reloadEvents();
     this.reloadCommands();
+    this.reloadStations();
     this.patchEmitter(this.client);
   }
 
-  reloadConfig() {
-    this.config = require(this.configPath);
+  reloadConfig(callback) {
+    try {
+      delete require.cache[require.resolve(this.configPath)];
+      this.config = require(this.configPath);
+      if (callback) callback();
+    } catch (err) {
+      if (callback) callback(err);
+    }
+  }
+
+  reloadStations(callback) {
+    try {
+      delete require.cache[require.resolve('./stations.json')];
+      this.stations = require('./stations.json');
+      this.log.debug('(Re)Loaded stations');
+      if (callback) callback();
+    } catch (err) {
+      this.log.error(err);
+      if (callback) callback(err);
+    }
   }
 
   getEvent(event) {
@@ -43,17 +62,22 @@ class Clementia {
   }
 
   reloadEvents(callback) {
-    this.events.removeAllListeners();
-    const events = fs.readdirSync(path.resolve('./events'));
-    for (const event of events) {
-      if (event.endsWith('.js')) {
-        delete require.cache[require.resolve(`./events/${event}`)];
-        let eventName = event.slice(0, -3);
-        this.events.on(eventName, this.getEvent(eventName));
-        this.log.debug('(Re)Loaded event: %s', eventName);
+    try {
+      this.events.removeAllListeners();
+      const events = fs.readdirSync(path.resolve('./events'));
+      for (const event of events) {
+        if (event.endsWith('.js')) {
+          delete require.cache[require.resolve(`./events/${event}`)];
+          let eventName = event.slice(0, -3);
+          this.events.on(eventName, this.getEvent(eventName));
+          this.log.debug('(Re)Loaded event: %s', eventName);
+        }
       }
+      if (callback) callback();
+    } catch (err) {
+      this.log.error(err);
+      if (callback) callback(err);
     }
-    if (callback) callback();
   }
 
   getCommand(command) {
@@ -67,17 +91,22 @@ class Clementia {
   }
 
   reloadCommands(callback) {
-    this.commands.removeAllListeners();
-    const commands = fs.readdirSync(path.resolve('./commands'));
-    for (const command of commands) {
-      if (command.endsWith('.js')) {
-        delete require.cache[require.resolve(`./commands/${command}`)];
-        let commandName = command.slice(0, -3);
-        this.commands.on(commandName, this.getCommand(commandName));
-        this.log.debug('(Re)Loaded command: %s', commandName);
+    try {
+      this.commands.removeAllListeners();
+      const commands = fs.readdirSync(path.resolve('./commands'));
+      for (const command of commands) {
+        if (command.endsWith('.js')) {
+          delete require.cache[require.resolve(`./commands/${command}`)];
+          let commandName = command.slice(0, -3);
+          this.commands.on(commandName, this.getCommand(commandName));
+          this.log.debug('(Re)Loaded command: %s', commandName);
+        }
       }
+      if (callback) callback();
+    } catch (err) {
+      this.log.error(err);
+      if (callback) callback(err);
     }
-    if (callback) callback();
   }
 
   patchEmitter(emitter) {

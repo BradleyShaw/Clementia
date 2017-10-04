@@ -1,0 +1,11 @@
+{
+  "EX1": {
+    "name": "Example Station 1",
+    "url": "http://example.com/",
+    "stream": {
+      "bitrate": 128000,
+      "format": "MP3",
+      "url": "http://listen.example.com/stream.mp3"
+    }
+  },
+}

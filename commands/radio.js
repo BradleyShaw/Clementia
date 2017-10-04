@@ -4,8 +4,10 @@ module.exports = async function(bot, message, args) {
     return;
   }
 
-  if (!args[0]) {
-    message.reply('Usage: playurl <url>');
+  const station = bot.stations[args[0]];
+
+  if (!station) {
+    message.reply('Usage: radio [<code>]');
     return;
   }
 
@@ -16,14 +18,11 @@ module.exports = async function(bot, message, args) {
     return;
   }
 
-  const connection = (voiceChannel.members.has(bot.client.user.id)
-                      ? voiceChannel.connection
-                      : await voiceChannel.join());
+  if (!voiceChannel.members.has(bot.client.user.id)) {
+    await voiceChannel.join();
+  }
   
-  const dispatcher = await connection.playArbitraryInput(args[0], {bitrate: 'auto'});
+  message.reply(`Playing \`${station.name} (${station.stream.format}@${station.stream.bitrate/1000}k)\``);
+  const dispatcher = await voiceChannel.connection.playArbitraryInput(station.stream.url, {bitrate: 'auto'});
   dispatcher.on('error', e => bot.log.error(e));
-  dispatcher.on('end', reason => {
-    bot.log.debug(reason);
-    voiceChannel.leave();
-  });
 }
