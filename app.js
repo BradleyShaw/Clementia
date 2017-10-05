@@ -1,5 +1,6 @@
 const EventEmitter = require('events');
 const Discord = require('discord.js');
+const request = require('request');
 const winston = require('winston');
 const path = require('path');
 const fs = require('fs');
@@ -27,6 +28,9 @@ class Clementia {
     this.reloadCommands();
     this.reloadStations();
     this.patchEmitter(this.client);
+    request('http://ipinfo.io/country', (err, res, body) => {
+      if (body) this.country = body.trim();
+    });
   }
 
   reloadConfig(callback) {
