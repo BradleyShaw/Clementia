@@ -4,10 +4,45 @@ module.exports = async function(bot, message, args) {
     return;
   }
 
+  if (!args[0]) {
+    let codes = [];
+    let stations = [];
+    Object.keys(bot.stations).forEach(k => {
+      codes.push(`\`${k}\``);
+      if (bot.stations[k].url) {
+        stations.push(`[${bot.stations[k].name}](${bot.stations[k].url})`);
+      } else {
+        stations.push(bot.stations[k].name);
+      }
+    });
+    message.channel.send({embed: {
+      title: `${bot.config.prefix}radio`,
+      description: 'Plays a radio station in the `Music` voice channel (if one exists)',
+      fields: [
+        {
+          name: 'Usage',
+          value: `\`${bot.config.prefix}radio <code>\``
+        },
+        {
+          name: 'Code',
+          value: codes.join('\n'),
+          inline: true
+        },
+        {
+          name: 'Station',
+          value: stations.join('\n'),
+          inline: true
+        }
+      ]
+    }});
+    return;
+  }
+
   const station = bot.stations[args[0]];
 
   if (!station) {
-    message.reply('Usage: radio [<code>]');
+    message.reply(`\`${args[0]}\` is not a valid station ID. ` +
+                  `Use \`${bot.config.prefix}radio\` to get a list of stations.`);
     return;
   }
 
