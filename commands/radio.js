@@ -2,11 +2,6 @@ const Discord = require('discord.js');
 const icy = require('icy');
 
 module.exports = async function(bot, message, args) {
-  if (message.author.id !== bot.config.owner) {
-    message.reply('You are not authorized to use this command.');
-    return;
-  }
-
   if (!args[0]) {
     let codes = [];
     let stations = [];
