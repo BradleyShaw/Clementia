@@ -239,6 +239,132 @@
       }
     ]
   },
+  "actual": {
+    "name": "Actual Radio",
+    "url": "https://www.actualradio.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://uk3.internet-radio.com:8198/stream"
+      }
+    ]
+  },
+  "ahomka": {
+    "name": "Ahomka Radio",
+    "url": "http://www.ahomkaradiouk.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://webradio.radiomonitor.com/m3u/AhomkaRadio.m3u"
+      }
+    ]
+  },
+  "allretro": {
+    "name": "All Retro Radio",
+    "url": "http://allretroradio.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://listen.cdnstream.com/hit45s/retro/1819_128mp3.m3u"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 320000,
+        "url": "http://listen.cdnstream.com/hit45s/retro/1819_320.m3u"
+      }
+    ]
+  },
+  "angel": {
+    "name": "Angel Radio",
+    "url": "http://angelradio.co.uk/",
+    "stream": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 96000,
+        "url": "http://s6.viastreaming.net:7030/"
+      }
+    ]
+  },
+  "antenna": {
+    "name": "Antenna Radio",
+    "url": "http://www.antennaradio.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://uk5.antennaradio.co.uk:8296/stream"
+      }
+    ]
+  },
+  "asr": {
+    "name": "Asian Sound Radio",
+    "url": "http://www.asiansoundradio.co.uk/home.aspx",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 48000,
+        "url": "http://asiansoundradio.primcast.com:8994/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://asiansoundradio3.primcast.com:9176/"
+      }
+    ]
+  },
+  "athavan": {
+    "name": "Athavan Radio",
+    "url": "http://athavanradio.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://38.96.148.140:6150/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://s1.voscast.com:9038/"
+      }
+    ]
+  },
+  "awaaz": {
+    "name": "Awaaz FM",
+    "url": "http://www.awaazfm.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://82.145.43.92:8022/"
+      }
+    ]
+  },
+  "banbury": {
+    "name": "Banbury Sound",
+    "url": "http://www.banburysound.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/banburysound.mp3"
+      }
+    ]
+  },
   "bbc-an": {
     "name": "BBC Asian Network",
     "url": "https://www.bbc.co.uk/asiannetwork",
