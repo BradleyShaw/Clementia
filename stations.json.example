@@ -1,4 +1,276 @@
 {
+  "2br-bb": {
+    "name": "2BR (Blackburn)",
+    "url": "https://www.2br.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://str1.sad.ukrd.com/thebee.mp3"
+      }
+    ]
+  },
+  "2br-burnley": {
+    "name": "2BR (Burnley)",
+    "url": "https://www.2br.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://str1.sad.ukrd.com/2br.mp3"
+      }
+    ]
+  },
+  "2br-lancs": {
+    "name": "2BR (Lancashire)",
+    "url": "https://www.2br.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://str1.sad.ukrd.com/2br-dab.mp3"
+      }
+    ]
+  },
+  "2br-preston": {
+    "name": "2BR (Preston)",
+    "url": "https://www.2br.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://str1.sad.ukrd.com/thebee-pr.mp3"
+      }
+    ]
+  },
+  "3fm": {
+    "name": "3FM",
+    "url": "http://www.three.fm/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 48000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/3fmlow.mp3"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/3fmhigh.mp3"
+      }
+    ]
+  },
+  "60s": {
+    "name": "60s",
+    "url": "http://radio60s.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 96000,
+        "url": "http://s3.viastreaming.net:8585/"
+      }
+    ]
+  },
+  "100-dragon": {
+    "name": "100% Dragon Hits",
+    "url": "http://www.100dragonhits.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://s4.xrad.io:8022/stream"
+      }
+    ]
+  },
+  "100-whatever": {
+    "name": "100% Whatever",
+    "url": "http://www.100whatever.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://s4.xrad.io:8052/stream"
+      }
+    ]
+  },
+  "abn": {
+    "name": "ABN Radio",
+    "url": "http://www.abnradiouk.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://cp6.serverse.com:7180/live"
+      }
+    ]
+  },
+  "absolute-cr": {
+    "name": "Absolute Classic Rock",
+    "url": "https://absoluteradio.co.uk/classic-rock/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-ac-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absoluteclassicrock.mp3"
+      }
+    ]
+  },
+  "absolute-uk": {
+    "name": "Absolute Radio",
+    "url": "https://absoluteradio.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-ar-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absoluteradio.mp3"
+      }
+    ]
+  },
+  "absolute-60s": {
+    "name": "Absolute Radio 60s",
+    "url": "https://absoluteradio.co.uk/60s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-a6-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absolute60s.mp3"
+      }
+    ]
+  },
+  "absolute-70s": {
+    "name": "Absolute Radio 70s",
+    "url": "https://absoluteradio.co.uk/70s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-a7-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absolute70s.mp3"
+      }
+    ]
+  },
+  "absolute-80s": {
+    "name": "Absolute 80s",
+    "url": "https://absoluteradio.co.uk/80s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-a8-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absolute80s.mp3"
+      }
+    ]
+  },
+  "absolute-90s": {
+    "name": "Absolute Radio 90s",
+    "url": "https://absoluteradio.co.uk/90s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-a9-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absolute90s.mp3"
+      }
+    ]
+  },
+  "absolute-00s": {
+    "name": "Absolute Radio 00s",
+    "url": "https://absoluteradio.co.uk/00s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://mp3-a0-32.timlradio.co.uk/"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://icy-e-bab-04-cr.sharp-stream.com/absolute00s.mp3"
+      }
+    ]
+  },
+  "bbc-an": {
+    "name": "BBC Asian Network",
+    "url": "https://www.bbc.co.uk/asiannetwork",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_asian_network.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_asian_network.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_asian_network.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_asian_network.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
   "bbc-radio1": {
     "name": "BBC Radio 1",
     "url": "https://www.bbc.co.uk/radio1",
@@ -28,6 +300,2038 @@
         "bitrate": 320000,
         "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_one.m3u8",
         "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-1xtra": {
+    "name": "BBC 1Xtra",
+    "url": "https://www.bbc.co.uk/1xtra",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_1xtra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_1xtra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_1xtra.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_1xtra.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-radio2": {
+    "name": "BBC Radio 2",
+    "url": "https://www.bbc.co.uk/radio2",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_two.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_two.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_two.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_two.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-radio3": {
+    "name": "BBC Radio 3",
+    "url": "https://www.bbc.co.uk/radio3",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_three.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_three.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_three.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_three.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-radio4": {
+    "name": "BBC Radio 4",
+    "url": "https://www.bbc.co.uk/radio4",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_fourfm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_fourfm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_fourfm.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_fourfm.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-radio4lw": {
+    "name": "BBC Radio 4 (LW)",
+    "url": "https://www.bbc.co.uk/radio4",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_fourlw.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_fourlw.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_fourlw.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_fourlw.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-r4extra": {
+    "name": "BBC Radio 4 Extra",
+    "url": "https://www.bbc.co.uk/radio4extra",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_four_extra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_four_extra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_four_extra.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_four_extra.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-5live": {
+    "name": "BBC 5 live",
+    "url": "https://www.bbc.co.uk/5live",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_five_live.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_five_live.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_five_live.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_five_live.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-5livese": {
+    "name": "BBC 5 live sports extra",
+    "url": "https://www.bbc.co.uk/5livesportsextra",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_five_live_sports_extra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_five_live_sports_extra.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_five_live_sports_extra.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_five_live_sports_extra.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-6music": {
+    "name": "BBC 6 Music",
+    "url": "https://www.bbc.co.uk/6music",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_6music.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_6music.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_6music.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_6music.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-world": {
+    "name": "BBC World Service",
+    "url": "https://www.bbc.co.uk/worldservice",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_world_service.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8"
+      }
+    ]
+  },
+  "bbc-berks": {
+    "name": "BBC Radio Berkshire",
+    "url": "https://www.bbc.co.uk/radioberkshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_berkshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_berkshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_berkshire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_berkshire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-bristol": {
+    "name": "BBC Radio Bristol",
+    "url": "https://www.bbc.co.uk/radiobristol",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_bristol.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_bristol.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_bristol.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_bristol.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-cambs": {
+    "name": "BBC Radio Cambridgeshire",
+    "url": "https://www.bbc.co.uk/radiocambridgeshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_cambridge.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cambridge.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_cambridge.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cambridge.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-cornwall": {
+    "name": "BBC Radio Cornwall",
+    "url": "https://www.bbc.co.uk/radiocornwall",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_cornwall.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cornwall.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_cornwall.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cornwall.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-cw": {
+    "name": "BBC Coventry & Warwickshire",
+    "url": "https://www.bbc.co.uk/bbccoventryandwarwickshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_coventry_warwickshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_coventry_warwickshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_coventry_warwickshire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_coventry_warwickshire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-cumbria": {
+    "name": "BBC Radio Cumbria",
+    "url": "https://www.bbc.co.uk/radiocumbria",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_cumbria.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cumbria.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_cumbria.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cumbria.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-cymru": {
+    "name": "BBC Radio Cymru",
+    "url": "https://www.bbc.co.uk/radiocymru",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_cymru.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cymru.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_cymru.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cymru.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-derby": {
+    "name": "BBC Radio Derby",
+    "url": "https://www.bbc.co.uk/radioderby",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_derby.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_derby.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_derby.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_derby.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-devon": {
+    "name": "BBC Radio Devon",
+    "url": "https://www.bbc.co.uk/radiodevon",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_devon.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_devon.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_devon.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_devon.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-essex": {
+    "name": "BBC Essex",
+    "url": "https://www.bbc.co.uk/bbcessex",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_essex.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_essex.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_essex.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_essex.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-foyle": {
+    "name": "BBC Radio Foyle",
+    "url": "https://www.bbc.co.uk/radiofoyle",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_foyle.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_foyle.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_foyle.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_foyle.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-gloucs": {
+    "name": "BBC Radio Gloucestershire",
+    "url": "https://www.bbc.co.uk/radiogloucestershire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_gloucestershire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_gloucestershire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_gloucestershire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_gloucestershire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-guernsey": {
+    "name": "BBC Radio Guernsey",
+    "url": "https://www.bbc.co.uk/radioguernsey",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_guernsey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_guernsey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_guernsey.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_guernsey.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-hw": {
+    "name": "BBC Hereford & Worcester",
+    "url": "https://www.bbc.co.uk/bbcherefordandworcester",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_hereford_worcester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_hereford_worcester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_hereford_worcester.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_hereford_worcester.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-humber": {
+    "name": "BBC Radio Humberside",
+    "url": "https://www.bbc.co.uk/radiohumberside",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_humberside.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_humberside.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_humberside.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_humberside.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-jersey": {
+    "name": "BBC Radio Jersey",
+    "url": "https://www.bbc.co.uk/radiojersey",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_jersey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_jersey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_jersey.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_jersey.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-kent": {
+    "name": "BBC Radio Kent",
+    "url": "https://www.bbc.co.uk/radiokent",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_kent.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_kent.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_kent.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_kent.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-lancs": {
+    "name": "BBC Radio Lancashire",
+    "url": "https://www.bbc.co.uk/radiolancashire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_lancashire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_lancashire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_lancashire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_lancashire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-leeds": {
+    "name": "BBC Radio Leeds",
+    "url": "https://www.bbc.co.uk/radioleeds",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_leeds.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_leeds.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_leeds.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_leeds.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-leics": {
+    "name": "BBC Radio Leicester",
+    "url": "https://www.bbc.co.uk/radioleicester",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_leicester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_leicester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_leicester.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_leicester.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-lincs": {
+    "name": "BBC Radio Lincolnshire",
+    "url": "https://www.bbc.co.uk/radiolincolnshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_lincolnshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_lincolnshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_lincolnshire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_lincolnshire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-london": {
+    "name": "BBC Radio London",
+    "url": "https://www.bbc.co.uk/radiolondon",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_london.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_london.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_london.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_london.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-mcr": {
+    "name": "BBC Radio Manchester",
+    "url": "https://www.bbc.co.uk/radiomanchester",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_manchester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_manchester.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_manchester.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_manchester.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-mersey": {
+    "name": "BBC Radio Merseyside",
+    "url": "https://www.bbc.co.uk/radiomerseyside",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_merseyside.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_merseyside.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_merseyside.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_merseyside.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-ng": {
+    "name": "BBC Radio nan Gàidheal",
+    "url": "https://www.bbc.co.uk/radionangaidheal",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_nan_gaidheal.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_nan_gaidheal.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_nan_gaidheal.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_nan_gaidheal.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-ncl": {
+    "name": "BBC Newcastle",
+    "url": "https://www.bbc.co.uk/bbcnewcastle",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_newcastle.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_newcastle.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_newcastle.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_newcastle.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-norfolk": {
+    "name": "BBC Radio Norfolk",
+    "url": "https://www.bbc.co.uk/radionorfolk",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_norfolk.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_norfolk.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_norfolk.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_norfolk.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-nhm": {
+    "name": "BBC Radio Northampton",
+    "url": "https://www.bbc.co.uk/radionorthampton",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_northampton.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_northampton.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_northampton.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_northampton.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-notts": {
+    "name": "BBC Radio Nottingham",
+    "url": "https://www.bbc.co.uk/radionottingham",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_nottingham.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_nottingham.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_nottingham.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_nottingham.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-orkney": {
+    "name": "BBC Radio Orkney",
+    "url": "https://www.bbc.co.uk/radioscotland/orkney",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_orkney.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_orkney.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_orkney.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_orkney.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-oxford": {
+    "name": "BBC Radio Oxford",
+    "url": "https://www.bbc.co.uk/radiooxford",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_oxford.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_oxford.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_oxford.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_oxford.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-scot": {
+    "name": "BBC Radio Scotland",
+    "url": "https://www.bbc.co.uk/radioscotland",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_scotland_fm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_scotland_fm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_scotland_fm.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_scotland_fm.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-scotmw": {
+    "name": "BBC Radio Scotland (MW)",
+    "url": "https://www.bbc.co.uk/radioscotland",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_scotland_mw.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_scotland_mw.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_scotland_mw.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_scotland_mw.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-sheff": {
+    "name": "BBC Radio Sheffield",
+    "url": "https://www.bbc.co.uk/radiosheffield",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_sheffield.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_sheffield.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_sheffield.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_sheffield.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-shetland": {
+    "name": "BBC Radio Shetland",
+    "url": "https://www.bbc.co.uk/radioscotland/shetland",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_shetland.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_shetland.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_shetland.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_shetland.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-shrops": {
+    "name": "BBC Radio Shropshire",
+    "url": "https://www.bbc.co.uk/radioshropshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_shropshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_shropshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_shropshire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_shropshire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-solent": {
+    "name": "BBC Radio Solent (Hampshire & East Dorset)",
+    "url": "https://www.bbc.co.uk/radiosolent",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_solent.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_solent.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_solent.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_solent.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-solentwd": {
+    "name": "BBC Radio Solent (West Dorset)",
+    "url": "https://www.bbc.co.uk/radiosolent",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_solent_west_dorset.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_solent_west_dorset.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_solent_west_dorset.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_solent_west_dorset.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-som": {
+    "name": "BBC Somerset",
+    "url": "https://www.bbc.co.uk/bbcsomerset",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_somerset_sound.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_somerset_sound.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_somerset_sound.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_somerset_sound.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-stoke": {
+    "name": "BBC Radio Stoke",
+    "url": "https://www.bbc.co.uk/radiostoke",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_stoke.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_stoke.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_stoke.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_stoke.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-suffolk": {
+    "name": "BBC Radio Suffolk",
+    "url": "https://www.bbc.co.uk/radiosuffolk",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_suffolk.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_suffolk.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_suffolk.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_suffolk.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-surrey": {
+    "name": "BBC Surrey",
+    "url": "https://www.bbc.co.uk/bbcsurrey",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_surrey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_surrey.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_surrey.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_surrey.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-sussex": {
+    "name": "BBC Sussex",
+    "url": "https://www.bbc.co.uk/bbcsussex",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_sussex.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_sussex.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_sussex.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_sussex.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-tees": {
+    "name": "BBC Tees",
+    "url": "https://www.bbc.co.uk/bbctees",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_tees.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_tees.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_tees.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_tees.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-3cr": {
+    "name": "BBC Three Counties Radio",
+    "url": "https://www.bbc.co.uk/threecountiesradio",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_three_counties_radio.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_three_counties_radio.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_three_counties_radio.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_three_counties_radio.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-ulster": {
+    "name": "BBC Radio Ulster",
+    "url": "https://www.bbc.co.uk/radioulster",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_ulster.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_ulster.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_ulster.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_ulster.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-wales": {
+    "name": "BBC Radio Wales",
+    "url": "https://www.bbc.co.uk/radiowales",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_wales_fm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_wales_fm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_wales_fm.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_wales_fm.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-wilts": {
+    "name": "BBC Wiltshire",
+    "url": "https://www.bbc.co.uk/bbcwiltshire",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_wiltshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_wiltshire.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_wiltshire.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_wiltshire.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-wm": {
+    "name": "BBC WM",
+    "url": "https://www.bbc.co.uk/wm",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_wm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_wm.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_wm.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_wm.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "bbc-york": {
+    "name": "BBC Radio York",
+    "url": "https://www.bbc.co.uk/radioyork",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_radio_york.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 96000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_york.m3u8"
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 128000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_med/ak/bbc_radio_york.m3u8",
+        "geo": ["GB"]
+      },
+      {
+        "type": "HLS",
+        "format": "AAC+",
+        "bitrate": 320000,
+        "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_york.m3u8",
+        "geo": ["GB"]
+      }
+    ]
+  },
+  "capital-mcr": {
+    "name": "Capital Manchester",
+    "url": "http://www.capitalfm.com/manchester/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalManchester"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalManchesterMP3"
+      }
+    ]
+  },
+  "gaydio-uk": {
+    "name": "Gaydio",
+    "url": "http://www.gaydio.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 24000,
+        "url": "http://uk_listen.gaydio.co.uk:8005/uk_aac_24"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 32000,
+        "url": "http://uk_listen.gaydio.co.uk:8003/gaydio_low"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 48000,
+        "url": "http://uk_listen.gaydio.co.uk:8002/gaydio_medium"
+      },
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 64000,
+        "url": "http://uk_listen.gaydio.co.uk:8004/uk_aac_64"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 192000,
+        "url": "http://uk_listen.gaydio.co.uk:8001/gaydio_high"
+      }
+    ]
+  },
+  "gaydio-nw": {
+    "name": "Gaydio North West",
+    "url": "http://www.gaydio.co.uk/nw/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://listen.gaydio.co.uk:8000/gaydio.aac"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://listen.gaydio.co.uk:8000/gaydio64.mp3"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 160000,
+        "url": "http://listen.gaydio.co.uk:8000/gaydio.mp3"
+      }
+    ]
+  },
+  "jackie": {
+    "name": "Radio Jackie",
+    "url": "http://www.radiojackie.com/",
+    "streams": [
+      {
+        "type": "HLS",
+        "format": "AAC",
+        "bitrate": 128000,
+        "url": "http://media.radiojackie.com/redirector/frontend.m3u8"
+      }
+    ]
+  },
+  "sunrise": {
+    "name": "Sunrise Radio",
+    "url": "http://www.sunriseradio.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "WMA",
+        "bitrate": 48000,
+        "url": "http://193.218.160.20/sunrise"
+      }
+    ]
+  },
+  "thevoice": {
+    "name": "The Voice",
+    "url": "http://www.thevoicefm.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "Ogg Vorbis",
+        "bitrate": 128000,
+        "url": "http://icecast3.rosisystems.com:8000/thevoice.ogg"
+      }
+    ]
+  },
+  "wrn": {
+    "name": "WRN Europe",
+    "url": "http://www.wrn.org/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "WMA",
+        "bitrate": 32000,
+        "url": "http://193.42.152.160/wrnengeu"
       }
     ]
   }

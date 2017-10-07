@@ -51,4 +51,16 @@ module.exports = async function(bot, message, args) {
       });
     });
   }
+
+  if (args.includes('views') || args[0] === 'all') {
+    message.channel.send(':arrows_counterclockwise: Views').then(msg => {
+      bot.reloadViews(err => {
+        if (err) {
+          msg.edit(':negative_squared_cross_mark: Views');
+        } else {
+          msg.edit(':white_check_mark: Views');
+        }
+      });
+    });
+  }
 }

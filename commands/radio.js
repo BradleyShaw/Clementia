@@ -6,7 +6,7 @@ module.exports = async function(bot, message, args) {
     let codes = [];
     let stations = [];
     Object.keys(bot.stations).forEach(k => {
-      codes.push(`\`${k}\``);
+      codes.push(k);
       stations.push(`[${bot.stations[k].name}](${bot.stations[k].url})`);
     });
     message.channel.send({embed: {
@@ -15,21 +15,15 @@ module.exports = async function(bot, message, args) {
         icon: bot.client.user.avatarURL
       },
       title: `${bot.config.prefix}radio`,
-      description: 'Plays a radio station in the `Music` voice channel (if one exists)',
+      description: 'Plays a radio station in the `Music` voice channel (if one exists).',
       fields: [
         {
           name: 'Usage',
           value: `\`${bot.config.prefix}radio <code>\``
         },
         {
-          name: 'Code',
-          value: codes.join('\n'),
-          inline: true
-        },
-        {
-          name: 'Station',
-          value: stations.join('\n'),
-          inline: true
+          name: 'Stations',
+          value: `${bot.config.url}/stations`
         }
       ]
     }});

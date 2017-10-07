@@ -2,5 +2,7 @@
   "token": "",
   "owner": "",
   "loglevel": "info",
-  "prefix": "!"
+  "prefix": "!",
+  "listen": 8787,
+  "url": "http://example.org"
 }

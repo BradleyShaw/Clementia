@@ -13,9 +13,11 @@
   "dependencies": {
     "discord.js": "^11.2.1",
     "erlpack": "github:discordapp/erlpack",
+    "express": "^4.16.1",
     "ffmpeg-binaries": "^3.2.2-3",
     "icy": "^2.1.0",
     "node-opus": "^0.2.7",
+    "pug": "^2.0.0-rc.4",
     "request": "^2.83.0",
     "sodium": "^2.0.1",
     "uws": "^8.14.1",

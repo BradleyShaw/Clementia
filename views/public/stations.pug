@@ -1,0 +1,14 @@
+extends ../layout.pug
+
+block body
+  div(class='container')
+    table(class='table table-striped')
+      thead
+        tr
+          th Code
+          th Station
+      tbody
+        each val, key in bot.stations
+          tr
+            td: code= key
+            td: a(href=val.url)= val.name

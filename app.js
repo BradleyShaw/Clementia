@@ -1,5 +1,6 @@
 const EventEmitter = require('events');
 const Discord = require('discord.js');
+const express = require('express');
 const request = require('request');
 const winston = require('winston');
 const path = require('path');
@@ -7,6 +8,7 @@ const fs = require('fs');
 
 class Clementia {
   constructor(configFile) {
+    this.app = express();
     this.client = new Discord.Client();
     this.events = new EventEmitter();
     this.commands = new EventEmitter();
@@ -27,6 +29,7 @@ class Clementia {
     this.reloadEvents();
     this.reloadCommands();
     this.reloadStations();
+    this.reloadViews();
     this.patchEmitter(this.client);
     request('http://ipinfo.io/country', (err, res, body) => {
       if (body) this.country = body.trim();
@@ -113,6 +116,29 @@ class Clementia {
     }
   }
 
+  reloadViews(callback) {
+    try {
+      this.app.routes = {};
+      const views = fs.readdirSync(path.resolve('./views/public'));
+      for (const view of views) {
+        if (view.endsWith('.pug')) {
+          let viewName = '' ? view === 'index.pug' : view.slice(0, -4);
+          this.app.get(`/${viewName}`, (req, res) => {
+            res.render(`public/${view}`, {
+              title: viewName.replace(/^[a-z]/, x => x.toUpperCase()),
+              bot: bot
+            });
+          });
+          this.log.debug('(Re)Loaded view: %s', viewName);
+        }
+      }
+      if (callback) callback();
+    } catch (err) {
+      this.log.error(err);
+      if (callback) callback(err);
+    }
+  }
+
   patchEmitter(emitter) {
     const oldEmit = emitter.emit;
 
@@ -124,6 +150,11 @@ class Clementia {
 
   run() {
     this.client.login(this.config.token);
+    if (typeof(this.config.listen) === 'object') {
+      this.app.listen.apply(this.app, this.config.listen);
+    } else {
+      this.app.listen(this.config.listen || '/tmp/clementia.sock');
+    }
     process.once('SIGINT', () => {
       this.log.info('Caught SIGINT; Exiting...');
       this.die();
