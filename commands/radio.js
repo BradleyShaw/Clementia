@@ -73,9 +73,7 @@ module.exports = async function(bot, message, args) {
 
   if (!voiceChannel.members.has(bot.client.user.id)) {
     await voiceChannel.join();
-  }
-
-  if (voiceChannel.connection.speaking) {
+  } else if (voiceChannel.connection.dispatcher) {
     voiceChannel.connection.dispatcher.end();
   }
 
@@ -103,7 +101,10 @@ module.exports = async function(bot, message, args) {
     icy.get(stream.url, res => {
       const dispatcher = voiceChannel.connection.playStream(res, {bitrate: 'auto'});
 
-      dispatcher.on('start', () => message.channel.send(streamEmbed));
+      dispatcher.on('start', () => {
+        bot.log.debug('Started streaming (guild: %s, station: %s)', message.guild.id, station.name);
+        message.channel.send(streamEmbed);
+      });
 
       res.on('metadata', metadata => {
         let meta = icy.parse(metadata);
@@ -119,15 +120,29 @@ module.exports = async function(bot, message, args) {
         }});
       });
 
-      dispatcher.on('error', e => bot.log.error(e));
+      dispatcher.on('error', e => {
+        bot.log.error('Error (guild: %s, station: %s):', message.guild.id, station.name, e);
+      });
 
-      dispatcher.on('end', () => res.destroy());
+      dispatcher.on('end', reason => {
+        bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
+        res.destroy();
+      });
     });
   } else {
     const dispatcher = voiceChannel.connection.playArbitraryInput(stream.url, {bitrate: 'auto'});
 
-    dispatcher.on('start', () => message.channel.send(streamEmbed));
+    dispatcher.on('start', () => {
+      bot.log.debug('Started streaming (guild: %s, station: %s)', message.guild.id, station.name);
+      message.channel.send(streamEmbed);
+    });
 
-    dispatcher.on('error', e => bot.log.error(e));
+    dispatcher.on('error', e => {
+      bot.log.error('Error (guild: %s, station: %s):', message.guild.id, station.name, e);
+    });
+
+    dispatcher.on('end', reason => {
+      bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
+    });
   }
 }
