@@ -22,7 +22,8 @@ class Clementia {
           timestamp: true
         }),
         new winston.transports.File({
-          filename: 'clementia.log'
+          filename: 'clementia.log',
+          json: false
         })
       ]
     });
