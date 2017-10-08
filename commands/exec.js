@@ -1,4 +1,6 @@
 const cprocess = require('child_process');
+const Discord = require('discord.js');
+const request = require('request')
 
 module.exports = async function(bot, message, args) {
   if (message.author.id !== bot.config.owner) {
@@ -8,6 +10,8 @@ module.exports = async function(bot, message, args) {
 
   this.outpart = '';
   this.msg = '';
+  this.color = 0x0000FF;
+  this.truncated = false;
 
   this.update = function(data) {
     if (!data.endsWith('\n')) {
@@ -20,10 +24,19 @@ module.exports = async function(bot, message, args) {
   }
 
   this.codeMsg = function() {
-    return '```\n' + this.msg.trim() + '\n```';
+    let output = this.msg.trim();
+    let length = output.length + 8;
+    if (length > 2048) {
+      output = '[...]' + output.slice(-2035);
+      this.truncated = true;
+    }
+    return new Discord.RichEmbed({
+      color: this.color,
+      description: '```\n' + output + '\n```'
+    });
   }
 
-  message.channel.send('```\n```').then(msg => {
+  message.channel.send({embed: {color: 0x0000FF}}).then(msg => {
     const proc = cprocess.exec(args.join(' '), {shell: '/bin/bash'});
 
     proc.stdout.on('data', out => {
@@ -45,19 +58,27 @@ module.exports = async function(bot, message, args) {
     proc.on('exit', (code, signal) => {
       if (this.outpart !== '') {
         this.msg += this.outpart;
-        msg.edit(this.codeMsg);
       }
       if (code === 0) {
-        msg.react('\u2705'); // :white_check_mark:
+        this.color = 0x00FF00;
       } else {
-        msg.react('\u274E'); // :negative_squared_cross_mark:
+        this.color = 0xFF0000;
       }
+      var out = this.codeMsg();
+      out.addField('Exit code', code);
+      if (this.truncated) {
+        request.post('https://pybin.pw/documents', {form: this.msg}, (err, res, body) => {
+          let key = JSON.parse(body)['key'];
+          out.addField('Full output', `https://pybin.pw/raw/${key}`);
+        });
+      }
+      msg.edit(out);
     });
 
     proc.on('error', (code, signal) => {
       this.msg = 'Error while running process';
+      this.color = 0xFF0000;
       msg.edit(this.codeMsg());
-      msg.react('\u274E'); // :negative_squared_cross_mark:
     });
   });
 }

@@ -77,7 +77,7 @@ module.exports = async function(bot, message, args) {
     voiceChannel.connection.dispatcher.end();
   }
 
-  const streamEmbed = new Discord.RichEmbed({
+  message.channel.send({embed: {
     author: {
       name: station.name,
       url: station.url
@@ -94,17 +94,12 @@ module.exports = async function(bot, message, args) {
         inline: true
       }
     ]
-  });
+  }});
 
   if (stream.type === 'ICY') {
     var title = '';
     icy.get(stream.url, res => {
       const dispatcher = voiceChannel.connection.playStream(res, {bitrate: 'auto'});
-
-      dispatcher.on('start', () => {
-        bot.log.debug('Started streaming (guild: %s, station: %s)', message.guild.id, station.name);
-        message.channel.send(streamEmbed);
-      });
 
       res.on('metadata', metadata => {
         let meta = icy.parse(metadata);
@@ -120,29 +115,22 @@ module.exports = async function(bot, message, args) {
         }});
       });
 
-      dispatcher.on('error', e => {
-        bot.log.error('Error (guild: %s, station: %s):', message.guild.id, station.name, e);
-      });
-
-      dispatcher.on('end', reason => {
-        bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
-        res.destroy();
-      });
+      dispatcher.on('end', () => res.destroy());
     });
   } else {
     const dispatcher = voiceChannel.connection.playArbitraryInput(stream.url, {bitrate: 'auto'});
-
-    dispatcher.on('start', () => {
-      bot.log.debug('Started streaming (guild: %s, station: %s)', message.guild.id, station.name);
-      message.channel.send(streamEmbed);
-    });
-
-    dispatcher.on('error', e => {
-      bot.log.error('Error (guild: %s, station: %s):', message.guild.id, station.name, e);
-    });
-
-    dispatcher.on('end', reason => {
-      bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
-    });
   }
+
+  dispatcher.on('start', () => {
+    bot.log.debug('Started streaming (guild: %s, station: %s)', message.guild.id, station.name);
+  });
+
+  dispatcher.on('error', e => {
+    bot.log.error('Error (guild: %s, station: %s):', message.guild.id, station.name, e);
+  });
+
+  dispatcher.on('end', reason => {
+    bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
+    if (reason !== 'user') voiceChannel.leave();
+  });
 }

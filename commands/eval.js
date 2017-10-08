@@ -1,16 +1,21 @@
+const util = require('util');
+
 module.exports = function(bot, message, args) {
   if (message.author.id !== bot.config.owner) {
     message.reply('You are not authorized to use this command.');
     return;
   }
 
-  let msg = ['```'];
   try {
-    msg.push(eval(args.join(' ')));
+    let output = util.inspect(eval(args.join(' ')));
+    message.channel.send({embed: {
+      color: 0x00FF00,
+      description: '```\n' + output + '\n```'
+    }});
   } catch (err) {
-    msg.push(err.toString());
+    message.channel.send({embed: {
+      color: 0xFF0000,
+      description: '```\n' + err.stack + '\n```'
+    }});
   }
-  msg.push('```');
-
-  message.channel.send(msg.join('\n'));
 }
