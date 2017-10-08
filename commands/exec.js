@@ -31,6 +31,7 @@ module.exports = async function(bot, message, args) {
       this.truncated = true;
     }
     return new Discord.RichEmbed({
+      title: 'Output',
       color: this.color,
       description: '```\n' + output + '\n```'
     });
@@ -76,9 +77,11 @@ module.exports = async function(bot, message, args) {
     });
 
     proc.on('error', (code, signal) => {
-      this.msg = 'Error while running process';
-      this.color = 0xFF0000;
-      msg.edit(this.codeMsg());
+      msg.edit({embed: {
+        color: 0xFF0000,
+        title: 'Error',
+        description: 'Error while running process.'
+      }});
     });
   });
 }

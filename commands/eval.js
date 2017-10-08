@@ -10,11 +10,13 @@ module.exports = function(bot, message, args) {
     let output = util.inspect(eval(args.join(' ')));
     message.channel.send({embed: {
       color: 0x00FF00,
+      title: 'Output',
       description: '```\n' + output + '\n```'
     }});
   } catch (err) {
     message.channel.send({embed: {
       color: 0xFF0000,
+      title: 'Output',
       description: '```\n' + err.stack + '\n```'
     }});
   }
