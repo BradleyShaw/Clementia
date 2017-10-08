@@ -16,7 +16,7 @@ module.exports = function(bot, message, args) {
   } catch (err) {
     message.channel.send({embed: {
       color: 0xFF0000,
-      title: 'Output',
+      title: 'Error',
       description: '```\n' + err.stack + '\n```'
     }});
   }
