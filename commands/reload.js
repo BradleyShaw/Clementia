@@ -20,7 +20,7 @@ module.exports = async function(bot, message, args) {
     message.channel.send(':arrows_counterclockwise: Commands').then(msg => {
       bot.reloadCommands(err => {
         if (err) {
-          message.edit(':negative_squared_cross_mark: Commands');
+          msg.edit(':negative_squared_cross_mark: Commands');
         } else {
           msg.edit(':white_check_mark: Commands');
         }
