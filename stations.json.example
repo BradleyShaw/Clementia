@@ -2335,6 +2335,312 @@
       }
     ]
   },
+  "bfbs-bn": {
+    "name": "BFBS Brize Norton",
+    "url": "http://www.forces.net/radio/stations/bfbs-brize-norton",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs25.mp3"
+      }
+    ]
+  },
+  "bfbs-uk": {
+    "name": "BFBS UK",
+    "url": "http://www.forces.net/radio/stations/bfbs-uk",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs1.mp3"
+      }
+    ]
+  },
+  "bfbs-beats": {
+    "name": "BFBS Beats",
+    "url": "http://www.forces.net/radio/stations/bfbs-beats",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs20.mp3"
+      }
+    ]
+  },
+  "bfbs-gurkha": {
+    "name": "BFBS Radio Gurkha",
+    "url": "http://www.forces.net/radio/stations/bfbs-radio-gurkha",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 64000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs3.mp3"
+      }
+    ]
+  },
+  "bigtop40": {
+    "name": "Big Top 40",
+    "url": "http://www.bigtop40.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/BigTop40V1"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/BigTop40"
+      }
+    ]
+  },
+  "bobfm": {
+    "name": "BOB fm",
+    "url": "http://www.bobfm.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 48000,
+        "url": "http://ic01.mediaondemand.net:8000/AppBobFM"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 96000,
+        "url": "http://ic01.mediaondemand.net:8000/106BobFM"
+      }
+    ]
+  },
+  "bridge": {
+    "name": "Bridge FM (Bridgend)",
+    "url": "http://bridgefm.wales/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 48000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/tcbridgei.mp3"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://edge-audio-03-gos2.sharp-stream.com/tcbridge.mp3"
+      }
+    ]
+  },
+  "bridgefm": {
+    "name": "BRIDGEfm (Dundee)",
+    "url": "http://www.bridgefm.org.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 80000,
+        "url": "http://live.audiospace.co/bridgefm"
+      }
+    ]
+  },
+  "bsjfm": {
+    "name": "BSJ.FM",
+    "url": "http://www.bsj.fm/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://www.lucasbroadcast.com:8002/stream"
+      }
+    ]
+  },
+  "capital-uk": {
+    "name": "Capital",
+    "url": "http://www.capitalfm.com/digital/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalUK"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalUKMP3"
+      }
+    ]
+  },
+  "capital-xtra": {
+    "name": "Capital XTRA",
+    "url": "http://www.capitalxtra.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalXTRANational"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalXTRANationalMP3"
+      }
+    ]
+  },
+  "capital-bham": {
+    "name": "Capital Birmingham",
+    "url": "http://www.capitalfm.com/birmingham/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalBirmingham"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalBirminghamMP3"
+      }
+    ]
+  },
+  "capital-cymru": {
+    "name": "Capital Cymru",
+    "url": "http://www.capitalfm.com/cymru/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalCymru"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalCymruMP3"
+      }
+    ]
+  },
+  "capital-derby": {
+    "name": "Capital Derbyshire",
+    "url": "http://www.capitalfm.com/derbyshire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalDerbyshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalDerbyshireMP3"
+      }
+    ]
+  },
+  "capital-edin": {
+    "name": "Capital Edinburgh",
+    "url": "http://www.capitalfm.com/edinburgh/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalEdinburgh"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalEdinburghMP3"
+      }
+    ]
+  },
+  "capital-glas": {
+    "name": "Capital Glasgow",
+    "url": "http://www.capitalfm.com/glasgow/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalGlasgow"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalGlasgowMP3"
+      }
+    ]
+  },
+  "capital-leics": {
+    "name": "Capital Leicestershire",
+    "url": "http://www.capitalfm.com/leicestershire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalLeicestershire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalLeicestershireMP3"
+      }
+    ]
+  },
+  "capital-lpool": {
+    "name": "Capital Liverpool",
+    "url": "http://www.capitalfm.com/liverpool/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalLiverpool"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalLiverpoolMP3"
+      }
+    ]
+  },
+  "capital-london": {
+    "name": "Capital London",
+    "url": "http://www.capitalfm.com/london/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Capital"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalMP3"
+      }
+    ]
+  },
   "capital-mcr": {
     "name": "Capital Manchester",
     "url": "http://www.capitalfm.com/manchester/",
@@ -2350,6 +2656,252 @@
         "format": "MP3",
         "bitrate": 128000,
         "url": "http://media-ice.musicradio.com/CapitalManchesterMP3"
+      }
+    ]
+  },
+  "capital-nwales": {
+    "name": "Capital North Wales",
+    "url": "http://www.capitalfm.com/walescoast/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalWalesCoast"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalWalesCoastMP3"
+      }
+    ]
+  },
+  "capital-notts": {
+    "name": "Capital Nottinghamshire",
+    "url": "http://www.capitalfm.com/nottinghamshire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalNottinghamshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalNottinghamshireMP3"
+      }
+    ]
+  },
+  "capital-sc": {
+    "name": "Capital South Coast",
+    "url": "http://www.capitalfm.com/southcoast/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthCoast"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthCoastMP3"
+      }
+    ]
+  },
+  "capital-swales": {
+    "name": "Capital South Wales",
+    "url": "http://www.capitalfm.com/southwales/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthWales"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthWalesMP3"
+      }
+    ]
+  },
+  "capital-tees": {
+    "name": "Capital Teesside",
+    "url": "http://www.capitalfm.com/teesside/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalTeesside"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalTeessideMP3"
+      }
+    ]
+  },
+  "capital-tw": {
+    "name": "Capital Tyne & Wear",
+    "url": "http://www.capitalfm.com/tynewear/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalTyneWear"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalTyneWearMP3"
+      }
+    ]
+  },
+  "capital-wirral": {
+    "name": "Capital Wirral",
+    "url": "http://www.capitalfm.com/wirral/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalWirral"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalWirralMP3"
+      }
+    ]
+  },
+  "capital-wrex": {
+    "name": "Capital Wrexham",
+    "url": "http://www.capitalfm.com/wrexham/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalWrexham"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalWrexhamMP3"
+      }
+    ]
+  },
+  "capital-ye": {
+    "name": "Capital Yorkshire East",
+    "url": "http://www.capitalfm.com/yorkshireeast/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalYorkshireEast"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalYorkshireEastMP3"
+      }
+    ]
+  },
+  "capital-ysw": {
+    "name": "Capital Yorkshire South & West",
+    "url": "http://www.capitalfm.com/yorkshiresouthwest/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthWest"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalSouthWestMP3"
+      }
+    ]
+  },
+  "capital-xtraldn": {
+    "name": "Capital XTRA London",
+    "url": "http://www.capitalxtra.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/CapitalXTRALondon"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/CapitalXTRALondonMP3"
+      }
+    ]
+  },
+  "centralfm": {
+    "name": "Central FM",
+    "url": "http://www.centralfm.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 96000,
+        "url": "http://s4.xrad.io:8010/stream"
+      }
+    ]
+  },
+  "chill": {
+    "name": "Chill",
+    "url": "http://www.helpmechill.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Chill"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/ChillMP3"
+      }
+    ]
+  },
+  "classic": {
+    "name": "Classic FM",
+    "url": "http://www.classicfm.com/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/ClassicFM"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/ClassicFMMP3"
       }
     ]
   },
@@ -2413,6 +2965,816 @@
       }
     ]
   },
+  "gold": {
+    "name": "Gold London",
+    "url": "http://www.mygoldmusic.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Gold"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/GoldMP3"
+      }
+    ]
+  },
+  "heart-80s": {
+    "name": "Heart 80s",
+    "url": "http://www.heart.co.uk/80s/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Heart80s"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/Heart80sMP3"
+      }
+    ]
+  },
+  "heart-uk": {
+    "name": "Heart UK",
+    "url": "http://www.heart.co.uk/digital/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartUK"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartUKMP3"
+      }
+    ]
+  },
+  "heart-extra": {
+    "name": "Heart Extra",
+    "url": "http://www.heart.co.uk/extra/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Heartextra"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartextraMP3"
+      }
+    ]
+  },
+  "heart-bath": {
+    "name": "Heart Bath",
+    "url": "http://www.heart.co.uk/bath/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartBath"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartBathMP3"
+      }
+    ]
+  },
+  "heart-beds": {
+    "name": "Heart Bedfordshire",
+    "url": "http://www.heart.co.uk/bedford/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartBedfordshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartBedfordshireMP3"
+      }
+    ]
+  },
+  "heart-bbh": {
+    "name": "Heart Beds/Bucks/Herts",
+    "url": "http://www.heart.co.uk/dunstable/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartBedsBucksHerts"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartBedsBucksHertsMP3"
+      }
+    ]
+  },
+  "heart-berks": {
+    "name": "Heart Berkshire",
+    "url": "http://www.heart.co.uk/berkshire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartBerkshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartBerkshireMP3"
+      }
+    ]
+  },
+  "heart-bristol": {
+    "name": "Heart Bristol",
+    "url": "http://www.heart.co.uk/bristol/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartBristol"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartBristolMP3"
+      }
+    ]
+  },
+  "heart-cambs": {
+    "name": "Heart Cambridge",
+    "url": "http://www.heart.co.uk/cambridge/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartCambridge"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartCambridgeMP3"
+      }
+    ]
+  },
+  "heart-col": {
+    "name": "Heart Colchester",
+    "url": "http://www.heart.co.uk/colchester/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartColchester"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartColchesterMP3"
+      }
+    ]
+  },
+  "heart-cwall": {
+    "name": "Heart Cornwall",
+    "url": "http://www.heart.co.uk/cornwall/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartCornwall"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartCornwallMP3"
+      }
+    ]
+  },
+  "heart-crawley": {
+    "name": "Heart Crawley",
+    "url": "http://www.heart.co.uk/crawley/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartCrawley"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartCrawleyMP3"
+      }
+    ]
+  },
+  "heart-dorset": {
+    "name": "Heart Dorset",
+    "url": "http://www.heart.co.uk/dorset/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartDorset"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartDorsetMP3"
+      }
+    ]
+  },
+  "heart-escot": {
+    "name": "Heart East Scotland",
+    "url": "http://www.heart.co.uk/edinburgh/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartEdinburgh"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartEdinburghMP3"
+      }
+    ]
+  },
+  "heart-essex": {
+    "name": "Heart Essex",
+    "url": "http://www.heart.co.uk/essex/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartEssex"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartEssexMP3"
+      }
+    ]
+  },
+  "heart-exeter": {
+    "name": "Heart Exeter",
+    "url": "http://www.heart.co.uk/exeter/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartEastDevon"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartEastDevonMP3"
+      }
+    ]
+  },
+  "heart-gloucs": {
+    "name": "Heart Gloucestershire",
+    "url": "http://www.heart.co.uk/gloucestershire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartGloucestershire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartGloucestershireMP3"
+      }
+    ]
+  },
+  "heart-hamps": {
+    "name": "Heart Hampshire",
+    "url": "http://www.heart.co.uk/southcoast/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartHampshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartHampshireMP3"
+      }
+    ]
+  },
+  "heart-harlow": {
+    "name": "Heart Harlow",
+    "url": "http://www.heart.co.uk/harlow/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartHarlow"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartHarlowMP3"
+      }
+    ]
+  },
+  "heart-herts": {
+    "name": "Heart Hertfordshire",
+    "url": "http://www.heart.co.uk/watford/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartWatford"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartWatfordMP3"
+      }
+    ]
+  },
+  "heart-kent": {
+    "name": "Heart Kent",
+    "url": "http://www.heart.co.uk/kent/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartKent"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartKentMP3"
+      }
+    ]
+  },
+  "heart-london": {
+    "name": "Heart London",
+    "url": "http://www.heart.co.uk/london/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartLondon"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartLondonMP3"
+      }
+    ]
+  },
+  "heart-mk": {
+    "name": "Heart Milton Keynes",
+    "url": "http://www.heart.co.uk/miltonkeynes/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartMiltonKeynes"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartMiltonKeynesMP3"
+      }
+    ]
+  },
+  "heart-norfolk": {
+    "name": "Heart Norfolk",
+    "url": "http://www.heart.co.uk/norfolk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartNorfolk"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartNorfolkMP3"
+      }
+    ]
+  },
+  "heart-ndevon": {
+    "name": "Heart North Devon",
+    "url": "http://www.heart.co.uk/barnstaple/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartNorthDevon"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartNorthDevonMP3"
+      }
+    ]
+  },
+  "heart-nwales": {
+    "name": "Heart North Wales",
+    "url": "http://www.heart.co.uk/northwales/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartNorthWales"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartNorthWalesMP3"
+      }
+    ]
+  },
+  "heart-nw": {
+    "name": "Heart North West",
+    "url": "http://www.heart.co.uk/northwest/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartNorthWest"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartNorthWestMP3"
+      }
+    ]
+  },
+  "heart-nhm": {
+    "name": "Heart Northamptonshire",
+    "url": "http://www.heart.co.uk/northants/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartNorthamptonshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartNorthamptonshireMP3"
+      }
+    ]
+  },
+  "heart-oxford": {
+    "name": "Heart Oxfordshire",
+    "url": "http://www.heart.co.uk/oxfordshire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartOxfordshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartOxfordshireMP3"
+      }
+    ]
+  },
+  "heart-pbh": {
+    "name": "Heart Peterborough",
+    "url": "http://www.heart.co.uk/peterborough/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartPeterborough"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartPeterboroughMP3"
+      }
+    ]
+  },
+  "heart-plym": {
+    "name": "Heart Plymouth",
+    "url": "http://www.heart.co.uk/plymouth/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartPlymouth"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartPlymouthMP3"
+      }
+    ]
+  },
+  "heart-som": {
+    "name": "Heart Somerset",
+    "url": "http://www.heart.co.uk/somerset/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartSomerset"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartSomersetMP3"
+      }
+    ]
+  },
+  "heart-shams": {
+    "name": "Heart South Hams",
+    "url": "http://www.heart.co.uk/southhams/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartSouthHams"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartSouthHamsMP3"
+      }
+    ]
+  },
+  "heart-swales": {
+    "name": "Heart South Wales",
+    "url": "http://www.heart.co.uk/southwales/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartSouthWales"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartSouthWalesMP3"
+      }
+    ]
+  },
+  "heart-suffolk": {
+    "name": "Heart Suffolk",
+    "url": "http://www.heart.co.uk/suffolk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartSuffolk"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartSuffolkMP3"
+      }
+    ]
+  },
+  "heart-sussex": {
+    "name": "Heart Sussex",
+    "url": "http://www.heart.co.uk/sussex/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartSussex"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartSussexMP3"
+      }
+    ]
+  },
+  "heart-swindon": {
+    "name": "Heart Swindon",
+    "url": "http://www.heart.co.uk/swindon/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartWiltshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartWiltshireMP3"
+      }
+    ]
+  },
+  "heart-tees": {
+    "name": "Heart Teesside",
+    "url": "http://www.heart.co.uk/teesside/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartTeesside"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartTeessideMP3"
+      }
+    ]
+  },
+  "heart-torbay": {
+    "name": "Heart Torbay",
+    "url": "http://www.heart.co.uk/torbay/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartTorbay"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartTorbayMP3"
+      }
+    ]
+  },
+  "heart-tw": {
+    "name": "Heart Tyne & Wear",
+    "url": "http://www.heart.co.uk/tynewear/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartTyneWear"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartTyneWearMP3"
+      }
+    ]
+  },
+  "heart-wm": {
+    "name": "Heart West Midlands",
+    "url": "http://www.heart.co.uk/westmids/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartWestMids"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartWestMidsMP3"
+      }
+    ]
+  },
+  "heart-wscot": {
+    "name": "Heart West Scotland",
+    "url": "http://www.heart.co.uk/glasgow/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartGlasgow"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartGlasgowMP3"
+      }
+    ]
+  },
+  "heart-wwales": {
+    "name": "Heart West Wales",
+    "url": "http://www.heart.co.uk/westwales/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartWestWales"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartWestWalesMP3"
+      }
+    ]
+  },
+  "heart-yorks": {
+    "name": "Heart Yorkshire",
+    "url": "http://www.heart.co.uk/yorkshire/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/HeartYorkshire"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/HeartYorkshireMP3"
+      }
+    ]
+  },
   "jackie": {
     "name": "Radio Jackie",
     "url": "http://www.radiojackie.com/",
@@ -2434,6 +3796,24 @@
         "format": "WMA",
         "bitrate": 48000,
         "url": "http://193.218.160.20/sunrise"
+      }
+    ]
+  },
+  "thearrow": {
+    "name": "The Arrow",
+    "url": "http://www.thearrow.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://media-ice.musicradio.com/Arrow"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://media-ice.musicradio.com/ArrowMP3"
       }
     ]
   },
