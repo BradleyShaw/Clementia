@@ -1,6 +1,6 @@
 const cprocess = require('child_process');
 const Discord = require('discord.js');
-const request = require('request')
+const paste = require('../utils/paste');
 
 module.exports = async function(bot, message, args) {
   if (message.author.id !== bot.config.owner) {
@@ -27,7 +27,7 @@ module.exports = async function(bot, message, args) {
     let output = this.msg.trim();
     let length = output.length + 8;
     if (length > 2048) {
-      output = '[...]' + output.slice(-2035);
+      output = '[output too long]'
       this.truncated = true;
     }
     return new Discord.RichEmbed({
@@ -68,10 +68,7 @@ module.exports = async function(bot, message, args) {
       var out = this.codeMsg();
       out.addField('Exit code', code);
       if (this.truncated) {
-        request.post('https://pybin.pw/documents', {form: this.msg}, (err, res, body) => {
-          let key = JSON.parse(body)['key'];
-          out.addField('Full output', `https://pybin.pw/raw/${key}`);
-        });
+        paste(this.msg).then(url => out.setDescription(url));
       }
       msg.edit(out);
     });
