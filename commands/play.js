@@ -1,3 +1,4 @@
+const YouTube = require('youtube-api');
 const ytdl = require('ytdl-core');
 
 function formatSecs(secs) {
@@ -40,6 +41,24 @@ module.exports = async function(bot, message, args) {
       ]
     }});
     return;
+  } else if (!url.match(/^https?:\/\/\S+$/)) {
+    YouTube.authenticate(bot.config.youtube);
+    YouTube.search.list({
+      part: 'id',
+      q: args.join(' '),
+      regionCode: bot.country
+    }, (err, data) => {
+      if (err) {
+        bot.log.error(err);
+        return;
+      } else if (data.items.length > 0) {
+        let videoID = data.items[0].id.videoId;
+        url = `https://www.youtube.com/watch?v=${videoID}`;
+      } else {
+        message.reply('No results found.');
+        return;
+      }
+    });
   }
 
   const voiceChannel = message.guild.channels.find(val => val.name === 'Music');
