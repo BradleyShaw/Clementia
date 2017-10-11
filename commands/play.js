@@ -79,8 +79,5 @@ module.exports = async function(bot, message, args) {
   });
 
   dispatcher.on('error', e => bot.log.error(e));
-  dispatcher.on('end', reason => {
-    stream.destroy();
-    if (reason !== 'user') voiceChannel.leave();
-  });
+  dispatcher.on('end', () => stream.destroy());
 }

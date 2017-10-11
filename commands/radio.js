@@ -131,6 +131,5 @@ module.exports = async function(bot, message, args) {
 
   dispatcher.on('end', reason => {
     bot.log.debug('Stream ended (guild: %s, station: %s): %s', message.guild.id, station.name, reason);
-    if (reason !== 'user') voiceChannel.leave();
   });
 }
