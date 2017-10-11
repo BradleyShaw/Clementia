@@ -16,6 +16,22 @@ function formatSecs(secs) {
   return length;
 }
 
+function search(auth, options) {
+  YouTube.authenticate(auth);
+
+  return new Promise((resolve, reject) => {
+    YouTube.search.list(options, (err, data) => {
+      if (err) {
+        reject(err);
+      } else if (!data.items.length > 0) {
+        reject('No results found.');
+      } else {
+        resolve(`https://www.youtube.com/watch?v=${data.items[0].id.videoId}`);
+      }
+    })
+  });
+}
+
 module.exports = async function(bot, message, args) {
   if (message.author.id !== bot.config.owner) {
     message.reply('You are not authorized to use this command. ' +
@@ -23,7 +39,7 @@ module.exports = async function(bot, message, args) {
     return;
   }
 
-  let url = args[0];
+  var url = args[0];
 
   if (!url) {
     message.channel.send({embed: {
@@ -42,22 +58,10 @@ module.exports = async function(bot, message, args) {
     }});
     return;
   } else if (!url.match(/^https?:\/\/\S+$/)) {
-    YouTube.authenticate(bot.config.youtube);
-    YouTube.search.list({
+    url = await search(bot.config.youtube, {
       part: 'id',
       q: args.join(' '),
       regionCode: bot.country
-    }, (err, data) => {
-      if (err) {
-        bot.log.error(err);
-        return;
-      } else if (data.items.length > 0) {
-        let videoID = data.items[0].id.videoId;
-        url = `https://www.youtube.com/watch?v=${videoID}`;
-      } else {
-        message.reply('No results found.');
-        return;
-      }
     });
   }
 
