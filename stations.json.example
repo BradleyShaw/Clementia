@@ -2905,6 +2905,42 @@
       }
     ]
   },
+  "electric": {
+    "name": "This Is Electric",
+    "url": "http://www.thisiselectric.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://mp3streaming.planetwideradio.com:9185/thisiselectric48"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://mp3streaming.planetwideradio.com:9185/thisiselectric128"
+      }
+    ]
+  },
+  "fire": {
+    "name": "Fire Radio",
+    "url": "https://www.fireradio.co.uk/",
+    "streams": [
+      {
+        "type": "ICY",
+        "format": "AAC+",
+        "bitrate": 48000,
+        "url": "http://webradio.radiomonitor.com/m3u/Fire-64.m3u"
+      },
+      {
+        "type": "ICY",
+        "format": "MP3",
+        "bitrate": 128000,
+        "url": "http://webradio.radiomonitor.com/m3u/Fire-128.m3u"
+      }
+    ]
+  },
   "gaydio-uk": {
     "name": "Gaydio",
     "url": "http://www.gaydio.co.uk/",
